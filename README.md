@@ -21,10 +21,10 @@ This mod is made on a extensible modding framework for FNF: Codename Engine. Thi
 ![codename logo](art/cne.jpg)
 
 Download Codename:
-- Windows: [https://tinyurl.com/cne-download-windows](https://tinyurl.com/cne-download-windows)
-- Mac OS: [https://tinyurl.com/cne-download-macos](https://tinyurl.com/cne-download-macos)
-- Linux: [https://tinyurl.com/cne-download-linux](https://tinyurl.com/cne-download-linux)
+- Windows: [https://tinyurl.com/cne-download-windows](https://nightly.link/CodenameCrew/CodenameEngine/workflows/windows/main/Codename%20Engine.zip)
+- Mac OS: [https://tinyurl.com/cne-download-macos](https://nightly.link/CodenameCrew/CodenameEngine/workflows/macos/main/Codename%20Engine.zip)
+- Linux: [https://tinyurl.com/cne-download-linux](https://nightly.link/CodenameCrew/CodenameEngine/workflows/linux/main/Codename%20Engine.zip)
 
-Codename's Github: [https://github.com/FNF-CNE-Devs/CodenameEngine](https://github.com/FNF-CNE-Devs/CodenameEngine)
+Codename's Github: [https://github.com/CodenameCrew/CodenameEngine](https://github.com/CodenameCrew/CodenameEngine)
 
 Little note, dustin builds on gamebanna/gamejolt come with a exe built in!!

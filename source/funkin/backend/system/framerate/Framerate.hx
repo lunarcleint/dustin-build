@@ -20,7 +20,7 @@ class Framerate extends Sprite {
 	public static var codenameBuildField:CodenameBuildField;
 	#end
 
-	public static var fontName:String = Paths.getFontName(Paths.font("DTM-Mono.ttf"));
+	public static var fontName:String = null;
 
 	/**
 	 * 0: FPS INVISIBLE

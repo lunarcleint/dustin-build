@@ -12,7 +12,7 @@ A R E &nbsp; Y O U &nbsp; R E A D Y ?
 </div>
 
 DUSTIN MOD DOWNLOADS:
--  **GAME BANNA:**  &nbsp;*Coming Soon...*
+-  **GAMEBANANA:** [https://gamebanana.com/mods/613322](https://gamebanana.com/mods/613322)
 -  **GAME JOLT:**  [https://gamejolt.com/games/fridaynightdustinFULL/1012008](https://gamejolt.com/games/fridaynightdustinFULL/1012008)
 
 # ENGINE???

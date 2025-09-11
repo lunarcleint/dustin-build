@@ -52,8 +52,8 @@ class Flags {
 
 	@:lazy public static var VERSION_MESSAGE:String = "Friday Night Dustin'" + ' v$VERSION';
 
-	public static var REPO_NAME:String = "CodenameEngine";
-	public static var REPO_OWNER:String = "Chezzar";
+	public static var REPO_NAME:String = "dustin-build";
+	public static var REPO_OWNER:String = "lunarcleint";
 	public static var REPO_URL:String = 'https://github.com/$REPO_OWNER/$REPO_NAME';
 
 	/**

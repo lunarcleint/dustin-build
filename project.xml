@@ -3,17 +3,17 @@
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
 		title="Friday Night Dustin'" main="funkin.backend.system.Main"
-		file="dustin" packageName="com.chezzar.dustin"
-		package="com.chezzar.dustin"
-		version="1.0.1" company="Chezzar" />
+		file="dustin" packageName="com.chezzarcat.dustin"
+		package="com.chezzarcat.dustin"
+		version="1.0.1" company="ChezzarCat" />
 
 	<!--
 		CHANGE THE SAVE PATH & NAME FOR YOUR MOD HERE!
 	-->
-	<haxedef name="SAVE_PATH" value="Chezzar/"/>
+	<haxedef name="SAVE_PATH" value="ChezzarCat/"/>
 	<haxedef name="SAVE_NAME" value="save-default"/>
 
-	<haxedef name="SAVE_OPTIONS_PATH" value="Chezzar/"/>
+	<haxedef name="SAVE_OPTIONS_PATH" value="ChezzarCat/"/>
 	<haxedef name="SAVE_OPTIONS_NAME" value="options"/>
 
 	<!--Switch Export with Unique ApplicationID and Icon-->

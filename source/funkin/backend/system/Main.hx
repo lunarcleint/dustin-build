@@ -76,10 +76,10 @@ class Main extends Sprite
 
 		CrashHandler.init();
 
+		funkin.backend.system.framerate.Framerate.fontName = Paths.getFontName(Paths.font("DTM-Mono.ttf"));
 		addChild(game = new FunkinGame(gameWidth, gameHeight, MainState, Options.framerate, Options.framerate, skipSplash, startFullscreen));
 
 		#if (!mobile && !web)
-		funkin.backend.system.framerate.Framerate.fontName = Paths.getFontName(Paths.font("DTM-Mono.ttf"));
 		addChild(framerateSprite = new funkin.backend.system.framerate.Framerate());
 		SystemInfo.init();
 		#end

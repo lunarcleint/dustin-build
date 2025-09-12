@@ -1,0 +1,3 @@
+[submodule "mods/dustin-mod"]
+	path = mods/dustin
+	url = https://github.com/lunarcleint/dustin-mod

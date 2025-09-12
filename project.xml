@@ -7,6 +7,8 @@
 		package="com.chezzarcat.dustin"
 		version="1.0.1" company="ChezzarCat" />
 
+	<define name="DUSTIN_CUSTOM_BUILD"/>
+
 	<!--
 		CHANGE THE SAVE PATH & NAME FOR YOUR MOD HERE!
 	-->

@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Pulling the new commit
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: Initialize submodules # just to make sure  - Nex
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
       - name: Setting up Haxe
         uses: krdlab/setup-haxe@v1
         with:
@@ -35,12 +41,12 @@ jobs:
       - name: Uploading artifact (executable)
         uses: actions/upload-artifact@v4
         with:
-          name: Codename Engine (Executable Only)
-          path: export/release/windows/bin/CodenameEngine.exe
+          name: Dustin' (Executable Only)
+          path: export/release/windows/bin/dustin.exe
       - name: Uploading artifact (entire build)
         uses: actions/upload-artifact@v4
         with:
-          name: Codename Engine
+          name: Dustin'
           path: export/release/windows/bin
       - name: Clearing already existing cache
         uses: actions/github-script@v6

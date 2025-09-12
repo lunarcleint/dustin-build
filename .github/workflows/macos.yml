@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Pulling the new commit
         uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+      - name: Initialize submodules # just to make sure  - Nex
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
       - name: Setting up Haxe
         uses: krdlab/setup-haxe@v1
         with:
@@ -33,17 +39,17 @@ jobs:
         run: |
           haxelib run lime build mac
       - name: Tar files
-        run: tar -zcvf CodenameEngine.tar.gz -C export/release/macos/bin .
+        run: tar -zcvf dustin.tar.gz -C export/release/macos/bin .
       - name: Uploading artifact (executable)
         uses: actions/upload-artifact@v4
         with:
-          name: Codename Engine (Executable Only)
-          path: export/release/macos/bin/CodenameEngine.app/Contents/MacOS/CodenameEngine
+          name: Dustin' (Executable Only)
+          path: export/release/macos/bin/dustin.app/Contents/MacOS/dustin
       - name: Uploading artifact (entire build)
         uses: actions/upload-artifact@v4
         with:
-          name: Codename Engine
-          path: CodenameEngine.tar.gz
+          name: Dustin'
+          path: dustin.tar.gz
       - name: Clearing already existing cache
         uses: actions/github-script@v6
         with:

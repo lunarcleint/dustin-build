@@ -27,4 +27,4 @@ Download Codename:
 
 Codename's Github: [https://github.com/CodenameCrew/CodenameEngine](https://github.com/CodenameCrew/CodenameEngine)
 
-Little note, dustin builds on gamejolt come with a exe built in!!
+Little note, dustin builds on gamejolt come with an exe built in!!

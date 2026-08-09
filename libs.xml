@@ -4,34 +4,34 @@
 		<print pretty="true">Preparing installation...</print>
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
-		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" />
+		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" ref="0eaf6da141f7311c227e692bab11d674f03bc388" />
 		<lib name="lime" version="8.1.2" />
 		<!-- <git name="lime" url="https://github.com/CodenameCrew/cne-lime" />  disabled for now until fixed -->
 
 		<!-- Flixel -->
-		<git name="flixel" url="https://github.com/CodenameCrew/cne-flixel" />
-		<git name="flixel-addons" url="https://github.com/CodenameCrew/cne-flixel-addons" />
+		<git name="flixel" url="https://github.com/CodenameCrew/cne-flixel" ref="38c0f548e678714b2885f710c2b4454fa2ce7058" />
+		<git name="flixel-addons" url="https://github.com/CodenameCrew/cne-flixel-addons" ref="f540d575bd78438996d18168290d981538fea510" />
 
 		<!-- Other Libraries -->
-		<git name="hscript-improved" url="https://github.com/CodenameCrew/hscript-improved" ref="codename-dev" />
-		<git name="flxanimate" url="https://github.com/CodenameCrew/cne-flxanimate" />
-		<git name="hxdiscord_rpc" url="https://github.com/CodenameCrew/cne-hxdiscord_rpc" skipDeps="true" />
+		<git name="hscript-improved" url="https://github.com/CodenameCrew/hscript-improved" ref="f9b5ce71b4b1976e824b44a946cb300041839d36" />
+		<git name="flxanimate" url="https://github.com/CodenameCrew/cne-flxanimate" ref="83663e8a2520cc1505ae4c2de7c5d330c8ae628a" />
+		<git name="hxdiscord_rpc" url="https://github.com/CodenameCrew/cne-hxdiscord_rpc" ref="aa0edf55115c0cb7222a973af82a39c785c7103e" skipDeps="true" />
 		<git name="funkin-modchart" url="https://github.com/TheoDevelops/FunkinModchart" ref="f30676579d8de7ccac7d12e13b664e8b2c42c6bf" skipDeps="true" />
 		<lib name="hxvlc" version="1.9.3" skipDeps="true" />
 
 		<!-- Documentation and other features -->
-		<git name="away3d" url="https://github.com/CodenameCrew/away3d" />
+		<git name="away3d" url="https://github.com/CodenameCrew/away3d" ref="04c6696dd5d00fc8557097f8a2b3e8fc02a02185" />
 		<!-- <lib name="dox" /> -->
-		<lib name="markdown" />
-		<lib name="hxcpp-debug-server" />
+		<lib name="markdown" version="1.1.3" />
+		<lib name="hxcpp-debug-server" version="1.2.4" />
 
-		<lib name="nape-haxe4" />
+		<lib name="nape-haxe4" version="2.0.22" />
 
 		<!-- For building lime -->
 		<lib global="true" name="hxp" /> <lib name="hxp" />
 		<lib global="true" name="format" /> <lib name="format" />
 
-		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp" />
+		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp" ref="9b5b91dc027a71b31c4cf5cff04127ca41431ce4" />
 	</if>
 
 	<!-- Hxcpp Building -->

@@ -5,7 +5,7 @@
 
 		<!-- OpenFL & Lime (Required for Flixel) -->
 		<git name="openfl" url="https://github.com/CodenameCrew/cne-openfl" ref="0eaf6da141f7311c227e692bab11d674f03bc388" />
-		<lib name="lime" version="8.1.2" />
+		<lib name="lime" version="8.2.2" />
 		<!-- <git name="lime" url="https://github.com/CodenameCrew/cne-lime" />  disabled for now until fixed -->
 
 		<!-- Flixel -->
@@ -15,7 +15,8 @@
 		<!-- Other Libraries -->
 		<git name="hscript-improved" url="https://github.com/CodenameCrew/hscript-improved" ref="f9b5ce71b4b1976e824b44a946cb300041839d36" />
 		<git name="flxanimate" url="https://github.com/CodenameCrew/cne-flxanimate" ref="83663e8a2520cc1505ae4c2de7c5d330c8ae628a" />
-		<git name="hxdiscord_rpc" url="https://github.com/CodenameCrew/cne-hxdiscord_rpc" ref="aa0edf55115c0cb7222a973af82a39c785c7103e" skipDeps="true" />
+		<!-- Previous ref was aa0edf55115c0cb7222a973af82a39c785c7103e -->
+		<git name="hxdiscord_rpc" url="https://github.com/CodenameCrew/cne-hxdiscord_rpc" ref="old" skipDeps="true" />
 		<git name="funkin-modchart" url="https://github.com/TheoDevelops/FunkinModchart" ref="f30676579d8de7ccac7d12e13b664e8b2c42c6bf" skipDeps="true" />
 		<lib name="hxvlc" version="1.9.3" skipDeps="true" />
 
@@ -31,7 +32,8 @@
 		<lib global="true" name="hxp" /> <lib name="hxp" />
 		<lib global="true" name="format" /> <lib name="format" />
 
-		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp" ref="9b5b91dc027a71b31c4cf5cff04127ca41431ce4" />
+		<!-- Previous ref was 9b5b91dc027a71b31c4cf5cff04127ca41431ce4 -->
+		<git name="hxcpp" url="https://github.com/CodenameCrew/cne-hxcpp" ref="old" />
 	</if>
 
 	<!-- Hxcpp Building -->

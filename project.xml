@@ -234,6 +234,12 @@
 
 	<haxedef name="hscriptPos" /> <!-- for logging -->
 
+	<!--
+		Fixes videos not loading on MacOS if the os name for "#if" statements 
+	 	is "mac" and not "macos" as its written in the hxvlc source code.
+	-->
+	<define name="macos" if="mac" />
+
 	<!-- EXPERMENTAL FEATURES -->
 	<!-- <haxedef name="EXPERIMENTAL_FLXGRAPHIC_DESTROY_FIX" /> -->
 </project>

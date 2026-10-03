@@ -156,6 +156,8 @@
 	<library name="assets"    preload="true"  if="PRELOAD_ALL"/>
 	<library name="assets"    preload="false" if="NO_PRELOAD_ALL" />
 
+	<assets path="art/mac_crash_guide_dustin.txt" rename="IF YOU'RE ON MAC AND IT CRASHES.txt" type="text" if="mac" />
+
 	<section unless="TEST_BUILD">
 		<assets path="assets/"    rename="assets"	exclude="*.ogg" if="web"/>
 		<assets path="assets/"    rename="assets"	exclude="*.mp3" unless="web"/>

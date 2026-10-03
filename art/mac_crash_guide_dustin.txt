@@ -5,3 +5,8 @@ Unfortunately Mac is very strict for unsigned applications without licenses down
 In case Dustin keeps crashing at start up or straight up doesn't open, OPEN THE GAME THROUGH YOUR COMPUTER'S CONSOLE INSIDE THE .APP FOLDER/SPECIAL BUNDLE OF THE GAME ITSELF!!!
 After you do this for the first time, the next time, you won't need to use the console anymore if you're lucky enough... Mac works in such misteerious and horrible ways istfg sobb
 If you don't know how to open a program through the console, look it up online, its easy peasy!!
+
+There are also commands that remove the whole program from Mac's quarantine. Such as sudo xattr -rd com.apple.quarantine <path to app, can drag it into the console> (by running sudo you'll be prompted to enter you password).
+This typically fixes things so you can open it via double clicking!
+
+- Thanks to Drew and TemporalAnomaly

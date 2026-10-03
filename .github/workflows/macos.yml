@@ -40,18 +40,25 @@ jobs:
       - name: Building the game
         run: |
           arch -x86_64 haxelib run lime build mac
-      - name: Tar files
-        run: tar -zcvf dustin.tar.gz -C export/release/macos/bin .
+      #- name: Tar files
+      #  run: tar -zcvf dustin.tar.gz -C export/release/macos/bin .
+      - name: Zip files  # zipping it here so it keeps permission, unlike linux users, mac users dont use that much chmod sighh
+        run: |
+          cd export/release/macos/bin
+          zip -ry "$GITHUB_WORKSPACE/dustin.zip" .
+
       - name: Uploading artifact (executable)
         uses: actions/upload-artifact@v4
         with:
           name: Dustin' (Executable Only)
           path: export/release/macos/bin/dustin.app/Contents/MacOS/dustin
+
       - name: Uploading artifact (entire build)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7  # so i can use archive: false so fucking github actions dont zip the files again making a double zip or smth
         with:
           name: Dustin'
-          path: dustin.tar.gz
+          path: dustin.zip
+          archive: false
       - name: Clearing already existing cache
         uses: actions/github-script@v7
         with:
